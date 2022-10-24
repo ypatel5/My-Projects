@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-08T21:02:11 EDT" name="Default suite" finished-at="2022-10-08T21:03:13 EDT" duration-ms="62694">
+    <groups>
+      <group name="DeletePortfolio">
+        <method signature="MyPortfolioTest.deletePortfolio(java.util.Hashtable)[pri:0, instance:TestCases.MyPortfolioTest@5939a379]" name="deletePortfolio" class="TestCases.MyPortfolioTest"/>
+      </group> <!-- DeletePortfolio -->
+      <group name="Regression">
+        <method signature="MyPortfolioTest.deletePortfolio(java.util.Hashtable)[pri:0, instance:TestCases.MyPortfolioTest@5939a379]" name="deletePortfolio" class="TestCases.MyPortfolioTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-10-08T21:02:11 EDT" name="Default test" finished-at="2022-10-08T21:03:13 EDT" duration-ms="62694">
+      <class name="TestCases.MyPortfolioTest">
+        <test-method signature="deletePortfolio(java.util.Hashtable)[pri:0, instance:TestCases.MyPortfolioTest@5939a379]" started-at="2022-10-08T21:02:11 EDT" name="deletePortfolio" data-provider="addPortfolioTestData" finished-at="2022-10-08T21:02:39 EDT" duration-ms="27515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortfolioName=SME Stocks, Comment=SME Stocks Portfolio}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortfolio -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCases.MyPortfolioTest@5939a379]" started-at="2022-10-08T21:02:39 EDT" name="flushReports" finished-at="2022-10-08T21:02:39 EDT" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="deletePortfolio(java.util.Hashtable)[pri:0, instance:TestCases.MyPortfolioTest@5939a379]" started-at="2022-10-08T21:02:39 EDT" name="deletePortfolio" data-provider="addPortfolioTestData" finished-at="2022-10-08T21:02:56 EDT" duration-ms="17032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortfolioName=HighGain Stocks, Comment=HighGain Stocks Portfolio}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortfolio -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCases.MyPortfolioTest@5939a379]" started-at="2022-10-08T21:02:56 EDT" name="flushReports" finished-at="2022-10-08T21:02:56 EDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="deletePortfolio(java.util.Hashtable)[pri:0, instance:TestCases.MyPortfolioTest@5939a379]" started-at="2022-10-08T21:02:56 EDT" name="deletePortfolio" data-provider="addPortfolioTestData" finished-at="2022-10-08T21:03:13 EDT" duration-ms="16773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PortfolioName=BSE Stocks, Comment=BSE Stocks Portfolio}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortfolio -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCases.MyPortfolioTest@5939a379]" started-at="2022-10-08T21:03:13 EDT" name="flushReports" finished-at="2022-10-08T21:03:13 EDT" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestCases.MyPortfolioTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
